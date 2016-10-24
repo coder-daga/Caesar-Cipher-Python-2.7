@@ -1,6 +1,6 @@
 '''
 Program: Caesar Cipher.
-Developer: Mayank Daga(github/coder-daga)
+Developer: Mayank Daga(github.com/coder-daga)
 Python Version used: 2.7
 　
 '''
@@ -16,10 +16,10 @@ def encrypt():
 	
 	shift=int(raw_input("Please enter the key value: "));
 	
-	answer=''						 #initialize a blank variable for later appending the character values.
+	answer=''					 #initialize a blank variable for later appending the character values.
 	for char in pt:					 #iterating through the plaintext.
-		char=(ord(char)+shift)		 #getting the ascii value of the character with shift added.
-		if char - shift==32:		 #if the ascii of character is 32 i.e a space, leave it at 32.
+		char=(ord(char)+shift)			 #getting the ascii value of the character with shift added.
+		if char - shift==32:			 #if the ascii of character is 32 i.e a space, leave it at 32.
 			char = 32
 			
 		#if the value of ascii of char is more than ascii of z, substract 26. 
