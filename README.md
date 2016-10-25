@@ -14,3 +14,11 @@ Caesar Cipher implementation in Python 2.7
 4. Call user defined functions encrypt() or decrypt() according to user choice in step 1.
 5. Exit()
 
+## Output:
+ ### Encrypt():
+
+ ![encrypt](https://github.com/coder-daga/Caesar-Cipher-Python-2.7/blob/master/encrypt().JPG)
+
+ ### Decrypt():
+
+ ![decrypt](https://github.com/coder-daga/Caesar-Cipher-Python-2.7/blob/master/decrypt().JPG)
